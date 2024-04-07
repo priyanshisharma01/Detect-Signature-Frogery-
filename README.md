@@ -1,7 +1,4 @@
-# Signature_Forgery
 
-## Project pitch link
-https://docs.google.com/document/d/1xD9B3QpmfOjGfjqLKsectsYUD5NO8zbl/edit?usp=sharing&ouid=114207758597838169392&rtpof=true&sd=true
 
 ## How to clone
 
