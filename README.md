@@ -1,28 +1,11 @@
 
 
-## How to clone
-
-#### Make Sure You Have Git Installed In Your System
-##### To Check On Windows, Mac or Linux
-##### Just type `git` on your cmd.
-
-#### Use The Following Code To Clone The Project
-##### `git clone https://github.com/Dileep2896/Signature_Forgery`
-
-#### >> Open The Folder Using Your Android Studio.
-#### >> Wait Till The Dependencies are installed and indexed.
-#### >> Run The App On Any Installed Emulator.
 
 ## Overview
 
 Our project main focuses on banking security. We have designed a DL model integrated with an android application which can analyze and predicting whether the signature is genuine or forgery.
 As we all know the signature forgery is very common in India which can cause a huge loss to customers. Our model will solve this problem efficiently.
 
-## Goals
-1.	Generating Datasets: Generating datasets is the first step we have taken to solve this problem. Currently we are using a set of 4000+ signature datasets we have found from [1]. But our application can scan new signatures and generate the dataset which will again train the model.
-2.	Creating a Tensorflow Lite Model: As we know using a TensorFlow lite model is the easiest method to integrate our ML in android application. The Keras model is converted into TFLITE model.
-3.	Creating an android application: The android application is created to make the user interface easy and fast. Firebase is used as the authentication and for database.
-4.	Testing the model: As testing is one of the most important aspect we have tested out model with over 100 signature which gave us a 96.7% testing accuracy.
 
 ## Working Methodology
 Our model is based on a CNN learning. We have used computer vision to identify and recognize the original and forgery signature. Our model is trained on over 4000+ signature images and gives and accuracy of 94%. We have then integrated out model to a android application which help easy to use the model to scan and analyze the signature.
@@ -35,10 +18,6 @@ Our model is based on a CNN learning. We have used computer vision to identify a
 *	MP Charts Android
 *	Firebase (Authentication & Database)
 
-## Links and other Information:
-
-*	https://github.com/Dileep2896/Signature_Forgery
-*	https://cedar.buffalo.edu/NIJ/data/signatures.rar (Dataset Taken From )
 
 ## Application Images
 
